@@ -14,3 +14,8 @@ export type HotelType={
     imageUrls:string[];
     lastUpdated:Date;
 }
+
+
+
+
+
