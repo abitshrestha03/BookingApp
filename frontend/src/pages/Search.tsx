@@ -106,8 +106,8 @@ const Search = () => {
             <option value="pricePerNightDesc">Price Per Night (high to low)</option>
           </select>
         </div>
-        {hotelData?.data.map((hotel) => (
-          <SearchResultCard hotel={hotel} />
+        {hotelData?.data.map((hotel,i) => (
+          <SearchResultCard key={hotel._id+i} hotel={hotel} />
         ))}
         <div>
           <Pagination
