@@ -16,6 +16,7 @@ const Search = () => {
   const [selectedHotelTypes, setSelectedHotelTypes] = useState<string[]>([]);
   const [selectedFacilities, setSelectedFacilities] = useState<string[]>([]);
   const [selectedPrice, setSelectedPrice] = useState<number | undefined>();
+  
   const [sortOption,setSortOption] = useState<string>("");
 
   const searchParams = {
